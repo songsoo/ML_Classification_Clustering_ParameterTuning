@@ -1,12 +1,12 @@
 # ML_Classification_Clustering_ParameterTuning
-How to use <br><br>
-Settings before clustering & classification <br>
-&nbsp;&nbsp;a. import ML_TP_auto.py
-&nbsp;&nbsp;b. Read dataset file <br>
-&nbsp;&nbsp;c. Divide dataset into Target and Features <br>
-&nbsp;&nbsp;d. choose columns to use for clustering and classification <br><br>
-Auto ML<br>
-&nbsp;1. classification <br>
+<H1>How to use</H1> <br>
+<H3>Settings before clustering & classification</H3>
+a. import ML_TP_auto.py<br>
+b. Read dataset file <br>
+c. Divide dataset into Target and Features <br>
+d. choose columns to use for clustering and classification <br><br>
+<H3>Auto ML</H3>
+<H3>1. classification</H3>
 ML_TP_auto.get_Result(x_train,y_train,x_test,y_test,numerical_columns,categorical_columns)<br>
 x_train: feature to train classification models (pd.Dataframe) <br>
 y_train: target to train classification models (pd.Dataframe)<br>
@@ -16,9 +16,9 @@ numerical_columns : numerical column's names sets (2d-array)<br>
 categorical_columns : categorical column's names sets (2d-array)<br><br>
 return : test target and test features's score from the higest score of each models with train target and train features and each model's parameters tuned
 
-&nbsp;2. clustering <br>
-&nbsp;ML_TP_auto.findBest(or_data, y, numerical_columns, categorical_columns, max_cluster=None, n_inits=None, max_iters=None,tols=None, verboses=None, covariance_types=None,numlocals=None, max_neighbors=None, epsS=None, min_samples=None, metrics=None, algorithms=None, leaf_sizes=None, bandwidths=None, n_job=None)<br><br>
-parameters <br>             
+&nbsp;<H3>2. clustering</H3>
+&nbsp;ML_TP_auto.findBest(or_data, y, numerical_columns, categorical_columns, max_cluster=None, n_inits=None, max_iters=None,tols=None, verboses=None, covariance_types=None,numlocals=None, max_neighbors=None, epsS=None, min_samples=None, metrics=None, algorithms=None, leaf_sizes=None, bandwidths=None, n_job=None)<br>
+<H4>parameters </H4>           
 or_data : feature (pd.Dataframe)<br>
 y : target (pd.Dataframe)<br>
 numerical_columns : numerical column's names sets (2d-array)<br>
