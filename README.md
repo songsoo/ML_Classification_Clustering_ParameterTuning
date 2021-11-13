@@ -17,7 +17,7 @@ x_test: feature to test classification models (pd.Dataframe)<br>
 y_test: target to test classification models (pd.Dataframe)<br>
 numerical_columns : numerical column's names sets (2d-array)<br>
 categorical_columns : categorical column's names sets (2d-array)<br><br>
-return : test target and test features's score from the higest score of each models with train target and train features and each model's parameters tuned
+return : test target and test features's score from the higest score of all models with train target and train features and model's parameters tuned
 <img  src="https://user-images.githubusercontent.com/74779311/141611972-4c506c2a-e04e-4f8f-918f-d58a24f64cab.png"/>
 
 &nbsp;<H3>2. clustering</H3>
