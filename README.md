@@ -42,7 +42,7 @@ algorithms : default set for parameter, can be None (String) default=['auto']<br
 bandwidths : default set for parameter, can be None (integer) default=[estimate_bandwidth(X, quantile=0.25), estimate_bandwidth(X, quantile=0.50), estimate_bandwidth(X, quantile=0.75)]<br>
 n_job: default set for parameter, can be None (integer) default=-1<br><br>
 return : none <br>
-it just shows the result <br>
+it just print the result <br>
 <img  src="https://user-images.githubusercontent.com/74779311/141611974-c8666b1d-f303-4dee-991b-5c22b0ae9128.png"/>
 you can find example for using it in 'ML_TP_main.py'
 
