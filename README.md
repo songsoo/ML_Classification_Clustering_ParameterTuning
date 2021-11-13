@@ -5,7 +5,8 @@ a. import ML_TP_auto.py<br>
 b. Read dataset file <br>
 c. Divide dataset into Target and Features <br>
 d. choose columns to use for clustering and classification <br><br>
-![제목 없음1](https://user-images.githubusercontent.com/74779311/141611882-e6938323-2224-4e30-84bb-b8940b1b4d5a.png)
+
+<img  src="https://user-images.githubusercontent.com/74779311/141611947-70b21e32-77a4-408e-8589-e5d196b0a86d.png"/>
 
 <H3>Auto ML</H3>
 <H3>1. classification</H3>
@@ -17,8 +18,7 @@ y_test: target to test classification models (pd.Dataframe)<br>
 numerical_columns : numerical column's names sets (2d-array)<br>
 categorical_columns : categorical column's names sets (2d-array)<br><br>
 return : test target and test features's score from the higest score of each models with train target and train features and each model's parameters tuned
-![classification](https://user-images.githubusercontent.com/74779311/141611891-1495db4d-b180-4150-92e8-fc8bb74c2af0.png)
-
+<img  src="https://user-images.githubusercontent.com/74779311/141611972-4c506c2a-e04e-4f8f-918f-d58a24f64cab.png"/>
 
 &nbsp;<H3>2. clustering</H3>
 &nbsp;ML_TP_auto.findBest(or_data, y, numerical_columns, categorical_columns, max_cluster=None, n_inits=None, max_iters=None,tols=None, verboses=None, covariance_types=None,numlocals=None, max_neighbors=None, epsS=None, min_samples=None, metrics=None, algorithms=None, leaf_sizes=None, bandwidths=None, n_job=None)<br>
@@ -43,8 +43,8 @@ bandwidths : default set for parameter, can be None (integer) default=[estimate_
 n_job: default set for parameter, can be None (integer) default=-1<br><br>
 return : none <br>
 it only shows the result <br>
-![clustering](https://user-images.githubusercontent.com/74779311/141611894-5bfdf425-51f8-41a9-addb-17d54c22c930.png)
-
+![clustering](https://user-images.githubusercontent.com/74779311/141611974-c8666b1d-f303-4dee-991b-5c22b0ae9128.png)
+<img  src="https://user-images.githubusercontent.com/74779311/141611974-c8666b1d-f303-4dee-991b-5c22b0ae9128.png"/>
 you can find example for using it in 'ML_TP_main.py'
 
 <br><br>
