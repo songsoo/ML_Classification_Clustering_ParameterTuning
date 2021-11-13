@@ -43,7 +43,6 @@ bandwidths : default set for parameter, can be None (integer) default=[estimate_
 n_job: default set for parameter, can be None (integer) default=-1<br><br>
 return : none <br>
 it only shows the result <br>
-![clustering](https://user-images.githubusercontent.com/74779311/141611974-c8666b1d-f303-4dee-991b-5c22b0ae9128.png)
 <img  src="https://user-images.githubusercontent.com/74779311/141611974-c8666b1d-f303-4dee-991b-5c22b0ae9128.png"/>
 you can find example for using it in 'ML_TP_main.py'
 
